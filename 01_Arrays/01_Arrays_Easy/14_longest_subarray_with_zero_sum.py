@@ -1,4 +1,5 @@
 class longest_subarray_with_negatives:
+    # BRUTE FORCE
     # TC = O(N^2)
     # SC = O(1)
     def longest_subarray(self,arr):
@@ -15,6 +16,7 @@ class longest_subarray_with_negatives:
 
         return max_len
 
+    # OPTIMAL 
     # TC = O(N)
     # SC = O(N)
     def longest_subarray_2(self,arr):

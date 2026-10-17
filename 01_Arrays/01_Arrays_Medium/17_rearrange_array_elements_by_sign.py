@@ -1,3 +1,6 @@
+# TIME COMPLEXITY :- O(N)
+# SPACE COMPLEXITY :- O(N)
+
 class Solution:
     def rearrangeArray(self, nums):
         positive = []
